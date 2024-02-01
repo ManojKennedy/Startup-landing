@@ -1,0 +1,770 @@
+body{
+    font-family: 'DM Sans', sans-serif;
+    overflow-x: hidden;
+    height: 2000px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 35px;
+}
+.logo{
+    padding-bottom: 10px;
+}
+.join{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(147, 60, 173);
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-weight: 600;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    margin-top: 20px;
+    transition: background-color ease-out .5s;
+}
+.active {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+form{
+    background-color: white;
+    width: 510px;
+    color: rgb(60, 60, 60);
+    height: 520px;
+    border-radius: 5px;
+    margin-left: 130px;
+}
+form h1{
+    font-size: 40px;
+    padding: 0px 50px 30px 50px;
+    letter-spacing: 2px;
+}
+form p{
+    line-height: 50px;
+    font-size: 17px;
+    padding: 0px 50px;
+    margin-top: -50px;
+}
+form select{
+    width: 350px;
+    height: 50px;
+    border: 2px solid rgb(147, 60, 173);
+    border-radius: 5px;
+    padding-left: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+
+}
+form a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(147, 60, 173);
+    padding: 20px 138px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.location{
+    position: relative;
+    left: -340px;
+    top: 8px
+}
+
+.more{
+    width: 50px;
+    display: none;
+}
+.hero{
+    background-image: url("https://startup-saas-modern.vercel.app/_next/static/images/banner-bg-d1d19f3af4e862ba3ee37c04e4b353c8.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.hero1{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: -80px;
+    height: 500px;
+
+}
+.hero1 h3{
+    color: rgb(147, 60, 173);
+    margin-top: 150px;
+}
+.hero1 p{
+    font-size: 28px;
+    width: 600px;
+    margin: auto;
+    line-height: 50px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+.clients{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.clients img{
+    padding: 40px;
+}
+.direction1{
+    display: none;
+}
+.direction2{
+    display: none;
+}
+.box1_1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.box1_1 p{
+    width: 160px;
+}
+.box1 h1{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+.box1 p{
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 60px;
+    margin-top: 10px;
+}
+.box1{
+    width: 515px;
+}
+.box1_1 span{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.box1_1 img{
+    padding-bottom: 10px;
+}
+.box1_1 p{
+    font-size: 14px;
+    margin-top: 5px;
+    line-height: 20px;
+}
+
+.hero2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.workspace{
+    width: 550px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    margin-top: 70px;
+}
+.container div{
+    margin: 10px 10px;
+    width: 350px;
+    
+}
+.container div img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+.item4{
+    position: relative;
+    top: -110px;
+}
+.item6{
+    position: relative;
+    top: -65px;
+}
+.hero3 h3{
+    color: rgb(147, 60, 173);
+    text-align: center;
+    margin-top: 150px;
+}
+.hero3 p{
+    text-align: center;
+    font-size: 28px;
+}
+.hero3 h4{
+    margin-top: -50px;
+    margin-left: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    
+}
+.explore{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(231, 231, 231);
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    display: flex;
+    width: 1050px;
+    margin: auto;
+    justify-content: center;
+}
+.hero4{
+    background-color: rgb(12, 12, 31);
+    margin-top: 100px;
+    height: 1200px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.pricing{
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+}
+.pricing h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.pricing h3{
+    font-size: 25px;
+    font-weight: 700;
+}
+.plan{
+    border: 1px solid gray;
+    padding: 30px 0px;
+    width: 390px;
+    margin: auto;
+    border-radius: 10px;
+}
+.plan a{
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.monthly{
+    color: rgb(12, 12, 31);
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+.annual{
+    color: white;
+    padding: 20px 30px;
+}
+.details{
+    border: 1px solid white;
+    width: 35%;
+    padding-top: 50px;
+    color: white;
+    border-radius: 10px;
+    height: 650px;
+    margin-right: 100px;
+}
+.details img{
+    padding-left: 30px;
+}
+.details h4{
+    padding-left: 30px;
+    font-size: 30px;
+}
+.details h5{
+    padding-left: 30px;
+    color: gainsboro;
+    font-size: 20px;
+}
+.details h1{
+    padding-left: 30px;
+    margin-top: -30px;
+}
+li{
+    font-size: 22px;
+    width: 100%;
+    padding-bottom: 20px;
+    list-style-type: none;
+}
+ul li:before {
+    content: '';
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-size: 20px;
+    background-image: url("tick.png");
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+
+ul{
+    padding-left: 30px;
+}
+
+.pack{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+.details2{
+    border: 1px solid white;
+    width: 35%;
+    padding-top: 50px;
+    background-color: white;
+    border-radius: 10px;
+    height: 650px;
+    
+}
+.details2 img{
+    padding-left: 30px;
+    margin-top: -30px;
+}
+.details2 h4{
+    padding-left: 30px;
+    font-size: 30px;
+}
+.details2 h5{
+    padding-left: 30px;
+    font-size: 20px;
+}
+.details2 h1{
+    padding-left: 30px;
+    margin-top: -30px;
+    color: rgb(147, 60, 173);
+}
+.details2 a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 400px;
+    font-size: 40px;
+    top: -70px;
+}
+.details a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 400px;
+    font-size: 40px;
+    top: -70px;
+}
+
+legend{
+    background-color: rgb(147, 60, 173);
+    color: white;
+    width: 130px;
+    text-align: center;
+    position: relative;
+    border-radius: 3px;
+    padding: 5px;
+    top: -65px;
+    left: 20px;
+}
+.cust h1{
+    font-size: 45px;
+    font-weight: 400;
+}
+.cust p{
+    font-size: 16px;
+}
+.cust a{
+    text-decoration: none;
+    color: rgb(147, 60, 173);
+}
+.cust{
+    width: 32%;
+}
+.hero5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.hero5 img{
+    width: 50%;
+}
+.hero6{
+    text-align: center;
+}
+.hero6 h4{
+    color: rgb(147, 60, 173);
+    font-size: 20px;
+}
+.hero6 h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+.blog1 p img{
+    width: 25px;
+    position: relative;
+    top: 5px;
+    padding-right: 10px;
+}
+.blog{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: space-around;
+}
+
+.blog1 div{
+    width: 400px;
+    font-size: 18px;
+}
+.blog1 img{
+    width: 400px;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgb(12, 12, 31);
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 510px;
+}
+footer h1{
+    font-weight: 500;
+    font-size: 40px;
+}
+footer p{
+    font-size: 16px;
+}
+footer input{
+    border: none;
+    padding: 20px 50px;
+    width: 300px;
+    margin-top: 5%;
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.159);
+    margin-bottom: 100px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 16px 25px;
+    margin-left: 10px;
+}
+footer div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 850px){
+    nav{
+        display: none;
+    }
+    .more{
+        display: block;
+    }
+    .join{
+        margin-left: 280px;
+    }
+    form{
+        margin: auto;
+        width: 570px;
+        height: 480px;
+        margin-top: 100px;
+        box-shadow: 0px 15px 25px -20px black;
+    }
+    .hero{
+        background-size: 100%;
+        background-position: top;
+        
+    }
+    form h1{
+        padding: 30px 35px;
+    }
+    form p{
+        line-height: 30px;
+        padding: 0px 35px;
+    }
+    form select{
+        width: 490px;
+        margin-left: 35px;
+    }
+    form a{
+        padding: 20px 208px;
+        margin-left: 35px;
+    }
+    .hero1{
+        margin-top: -300px;
+    }
+    .location{
+        left: -480px;
+    }
+    .clients{
+        width: 100%;
+    }
+    .box1 h1, p{
+        text-align: center;
+    }
+    .box1_1 img{
+        margin-left: 65px;
+        margin-bottom: 15px;
+    }
+    .box1_1 span{
+        margin-left: 40px;
+    }
+    .box1{
+        margin-top: 100px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .item4{
+        top: 0;
+    }
+    .item6{
+        top: 0;
+    }
+    .item3{
+        position: relative;
+        top: -110px;
+    }
+    .item5{
+        position: relative;
+        top: -190px;
+    }
+    .explore{
+        width: 690px;
+    }
+    .details{
+        margin-right: 40px;
+        height: 680px;
+    }
+    .details2{
+        height: 680px;
+    }
+    li{
+        font-size: 16px;
+    }
+    .details a{
+        left: 200px;
+    }
+    .details2 a{
+        left: 200px;
+    }
+    .cust h1{
+        font-size: 22px;
+    }
+    .cust p{
+        font-size: 14px;
+        text-align: left;
+    }
+    .cust a{
+        font-size: 16px;
+    }
+    .blog1 p{
+        text-align: left;
+    }
+    .blog1{
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 450px){
+    .join{
+        display: none;
+    }
+    .more{
+        width: 40px;
+    }
+    form{
+        margin: auto;
+        width: 360px;
+        height: 370px;
+        margin-top: 110px;
+    }
+    .header{
+        width: 430px;
+        
+    }
+    .logo{
+        margin-right: 100px;
+    }
+    form p{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 20px 30px 20px 30px;
+    }
+    form h1{
+        font-size: 22px;
+        padding: 10px 30px 30px 30px;
+        letter-spacing: 0px;
+        
+    }
+    form select{
+        width: 300px;
+        margin-left: 30px;
+    }
+    .location{
+        left: -290px;
+    }
+    form a{
+        padding: 15px 113px;
+        margin-left: 30px;
+    }
+    .hero1{
+        margin-top: -430px;
+    }
+    .hero1 p{
+        font-size: 22px;
+        width: 380px;
+        line-height: 30px;
+        margin-top: -5px;
+    }
+    .clients {
+        margin-top: -50px;
+        flex-wrap: nowrap;
+        margin-left: 350px;
+    }
+    .clients img{
+        width: 200px;
+    }
+    .direction1{
+        display: inline;
+        margin: 0px 10px ;
+        border: none;
+        background-color: white;
+        font-size: 30px;
+        color: gray;
+    }
+    .direction2{
+        display: inline;
+        margin: 0px 10px ;
+        border: none;
+        background-color: white;
+        font-size: 40px;
+        color: rgb(0, 0, 0);
+    }
+    .box1{
+        margin-top: -150px;
+        width: 400px;
+    }
+    .box1 h1{
+        font-size: 25px;
+    }
+    .box1 p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .box1_1{
+        width: 400px;
+        justify-content: space-around;
+    }
+    .workspace{
+        width: 400px;
+        margin-left: -30px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: auto ;
+    }
+    .item3{
+        top: 0;
+    }
+    .item5{
+        top: 0;
+    }
+    .explore{
+        width: 310px;
+    }
+    .pack{
+        display: block;
+    }
+    .details{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 50px;
+        height: 600px;
+    }
+    .details2{
+        width: 90%;
+        margin: auto;
+        height: 600px;
+    }
+    .hero4{
+        height: 2000px;
+    }
+    li{
+        width: 95%;
+    }
+    .hero5{
+        display: block;
+    }
+    .cust{
+        width: 90%;
+        text-align: center;
+        margin: auto;
+        margin-top: -200px;
+    }
+    .cust p{
+        text-align: center;
+    }
+    .hero5 img{
+        position: relative;
+        top: 220px;
+        width: 70%;
+        left: 70px;
+    }
+    .hero6{
+        margin-top: 300px;
+    }
+    .hero6 h1{
+        font-size: 22px;
+    }
+    .blog1 img{
+        width: 350px;
+    }
+    .blog1 div{
+        width: 350px;
+        font-size: 16px;
+    }
+    footer h1{
+        font-size: 26px;
+    }
+    footer p{
+        font-size: 12px;
+    }
+    footer a{
+        padding: 17px 155px;
+        margin-left: 0px;
+    }
+    footer input{
+        margin-bottom: 40px;
+    }
+    .horizontal{
+        margin-top: 80px;
+    }
+
+}
